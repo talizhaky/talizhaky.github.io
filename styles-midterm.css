@@ -1,0 +1,94 @@
+body {font-family: Avenir, Geneva, sans-serif;
+	  color: #2E0462;
+	  background-color: #CDD8FC;
+	  font-size: 15pt;
+	  margin-left: 100px;
+	  margin-right: 100px}
+
+/*navigation menu*/
+nav {font-family: "Avenir Light", Geneva, sans-serif;
+	font-size: 15pt;
+	margin-top: -40px;
+	text-align: right;}
+	
+a:color {color: #2E0462;}
+a:visited {color: #F2A181;}
+a:hover {color: white;}
+
+main {margin-top: 75px;}
+
+img.rounded { border-radius: 50%;
+			  border: 10px solid #2E0462;
+			  display: block;
+			  margin-right: 25px;}
+
+.container { /*border:5px solid green;*/
+			 margin: auto;
+			 text-align: left;
+	  		 max-width: 100%;}
+
+.container main img { display: inline;
+					  border: 5px solid #2E0462;
+		   			  margin: auto 10px;}
+	
+		   			  
+.albums img {border: 5px solid #2E0462;
+			 margin: 15px;}
+
+/*HEADERS*/
+
+/*title of page*/		
+h1 {font-family: Arial, Geneva, sans-serif;
+	color:#306;
+	font-size: 20pt;
+	margin-top: 60px;
+	letter-spacing: 4px;}
+	
+/*title menu*/
+h2 {font-family: "Avenir Light", Geneva, sans-serif;
+	color: #306;
+	font-size: 13pt;
+	margin-top: -40px;
+	text-align: right;}
+
+/*body on home page*/
+h3 {font-family: Avenir, Geneva, sans-serif;
+	color: #306;
+	font-size: 50pt;
+	margin-left: 60px;
+	margin-top: -10px;}
+h3:hover {color: #F2A181;}
+
+/*body*/	
+h4 {font-family: "Avenir Light", Geneva, sans-serif;
+	color: #306;
+	font-size: 12pt;
+	margin-right: 300px;}
+
+/*images*/
+figure {font-size: 12pt;
+		text-align: center;}
+figure img {border: 5px solid #2E0462;
+		    margin-left: 20px;
+		    margin-right: 20px;}
+figcaption {margin-top:5px;}
+		    		    
+.column {float: left;
+  		 width: 30%;
+ 	   	 padding: 15px;}
+.row::after {content: "";
+  			 clear: both;
+  			 display: table;}
+
+footer { text-align: center;
+		 font-size: 9pt;
+		 margin-top: 50px;}
+footer img {margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 15px;}
+
+
+ul {list-style-type: circle;
+    list-style-position: inside;
+    margin: 0px;
+    padding: 10px;}
