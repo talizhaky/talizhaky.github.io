@@ -1,0 +1,77 @@
+/*Google Fonts*/
+
+
+body {font-family: Avenir, Geneva, sans-serif;
+	  color: #2E0462;
+	  background-color: #CDD8FC;
+	  font-size: 12pt;
+	  margin-left: 100px;
+	  margin-right: 100px}
+	  
+nav {font-family: "Avenir Light", Geneva, sans-serif;
+	font-size: 15pt;
+	margin-top: -40px;
+	text-align: right;}
+	
+header h1 {font-family: Arial, Geneva, sans-serif;
+	color:#306;
+	font-size: 20pt;
+	margin-top: 60px;
+	letter-spacing: 4px;}
+	
+/*body on home page*/
+header h2 {font-family: Avenir, Geneva, sans-serif;
+	color: #306;
+	font-size: 50pt;
+	margin-left: 60px;
+	margin-top: -10px;}
+header h2:hover {color: #F2A181;}
+	
+	
+h1 {font-family: "Avenir Light", Geneva, sans-serif;
+	color:#306;
+	font-size: 20pt;
+	letter-spacing: 4px;}
+	
+h2 {font-family: "Avenir Light", Geneva, sans-serif;
+	color:#306;
+	font-size: 15pt;
+	font-width: normal;}
+
+footer {text-align: center;
+		padding: 10px;}
+
+a {color: #2E0462;}
+a:visited {color: #F2A181;}
+a:hover {color: white;}
+
+main {margin-top: 75px;}
+
+img.rounded { border-radius: 50%;
+			  border: 10px solid #2E0462;
+			  display: block;
+			  margin-right: 25px;}	
+		   			  
+.albums img {border: 5px solid #2E0462;
+			 margin: 15px;}
+
+			
+.column {float: left;
+		text-align: center;}
+		
+
+.column.side {width: 21%;
+			  display: block;
+			  margin: auto;
+			  text-align: center;}
+.column.middle {width: 58%;
+				text-align: center;}
+
+.column img {padding: 10px;}
+
+
+
+ul {list-style-type: circle;
+    list-style-position: inside;
+    margin: 0px;
+    padding: 10px;}
