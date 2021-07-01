@@ -12,8 +12,8 @@ nav {font-family: "Avenir Light", Geneva, sans-serif;
 	text-align: right;}
 	
 a:color {color: #2E0462;}
-a:visited {color: #F2A181;}
-a:hover {color: white;}
+/*a:visited {color: #F2A181;}
+a:hover {color: white;}*/
 
 main {margin-top: 75px;}
 
